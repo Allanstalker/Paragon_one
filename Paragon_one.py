@@ -54,11 +54,7 @@ def externship_page(externship_number):
         """)
 def survey_page():
     st.title("Learn which externship is best suited for you!")
-    current_directory = os.getcwd()
-    image_path = os.path.join(current_directory, "Programming for data management", "Paragon_1_image.png")
-
-    # Add the image to the survey page
-    st.image(image_path, caption=None, use_column_width=True)
+    
 
     # Question 1
     interests = {
